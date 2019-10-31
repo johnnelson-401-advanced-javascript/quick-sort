@@ -1,4 +1,15 @@
 # quick-sort
+
+# Challenge Summary
+Quick Sorts use a partition value similar to a merge sort in that it divides and conquers. 
+## Challenge Description
+Follow the Pseudo code to create and test a working quickSort algorithm
+## Approach & Efficiency
+* Partition the array by defining a Pivot value.
+* Sort everything less than the Pivot to the left, and everything greater to the right.
+* Recursively Sort the array using Partition with a Pivot point one value to the left.
+
+## Solution
 ALGORITHM QuickSort(arr, left, right)
     if left < right
         // Partition the array by setting the position of the pivot value 
